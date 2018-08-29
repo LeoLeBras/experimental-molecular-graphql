@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "declaration": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "sourceMap": true,
+    "pretty": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "lib": ["dom", "esnext"]
+  },
+  "exclude": ["node_modules", "lib"]
+}

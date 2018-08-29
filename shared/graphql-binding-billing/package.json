@@ -1,0 +1,24 @@
+{
+  "name": "@acme/graphql-binding-billing",
+  "version": "1.0.0",
+  "description": "GraphQL Binding for billing module",
+  "author": "Léo Le Bras <leolebras@acme.fr>",
+  "main": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "binding": "node_modules/.bin/graphql-binding --input src/schema.ts --language typescript --outputBinding src/binding.ts",
+    "prepare": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "2.9.2"
+  },
+  "dependencies": {
+    "@acme/graphql-binding-customer": "1.0.0",
+    "@acme/graphql-types": "1.0.0",
+    "graphql": "^0.13.2",
+    "graphql-binding": "^2.2.2",
+    "graphql-import": "^0.6.0",
+    "graphql-tools": "^3.1.1"
+  }
+}

@@ -1,0 +1,19 @@
+type Client {
+  id: Int!
+  firstName: String!
+  lastName: String!
+  invoices: [Invoice]
+}
+
+enum InvoiceStatus {
+  unpaid
+  paid
+}
+
+type Invoice {
+  id: Int!
+  name: String!
+  client: Client
+  clientId: Int
+  status: InvoiceStatus!
+}

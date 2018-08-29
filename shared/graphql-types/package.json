@@ -1,0 +1,21 @@
+{
+  "name": "@acme/graphql-types",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GraphQL API's type system",
+  "author": "Léo Le Bras <leolebras@acme.fr>",
+  "main": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "graphql-import": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.49",
+    "@types/isomorphic-fetch": "^0.0.34",
+    "@types/node": "^10.5.8",
+    "typescript": "2.9.2"
+  }
+}

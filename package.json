@@ -1,0 +1,12 @@
+{
+  "name": "experimental-molecular-graphql",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Progressive microservices framework for Node.js with GraphQL and Moleculer",
+  "author": "Léo Le Bras <leolebras@acme.fr>",
+  "workspaces": [
+    "apps/*",
+    "shared/*",
+    "librairies/*"
+  ]
+}

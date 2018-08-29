@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add iterall
+
+PATH: 
+  /Users/leolebras/.rvm/gems/ruby-2.4.0/bin:/Users/leolebras/.rvm/gems/ruby-2.4.0@global/bin:/Users/leolebras/.rvm/rubies/ruby-2.4.0/bin:/Users/leolebras/Library/Python/2.7/bin:/usr/local/php5-7.1.0-20161202-092124/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/leolebras/Library/Android/sdk/tools:/Users/leolebras/Library/Android/sdk/platform-tools:/Users/leolebras/.composer/vendor/bin:/Users/leolebras/.rvm/bin
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  8.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "server-services",
+    "private": true,
+    "version": "1.0.0",
+    "description": "...",
+    "author": "Léo Le Bras <leolebras@acme.fr>",
+    "main": "src/index.ts",
+    "scripts": {
+      "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+      "@acme/graphql-binding-customer": "1.0.0",
+      "graphql-import": "^0.6.0",
+      "graphql-tag": "^2.9.2",
+      "moleculer": "^0.13.1",
+      "moleculer-graphql-binding": "^1.0.0",
+      "nats": "^1.0.1",
+      "ts-node": "^7.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "^10.5.8",
+      "typescript": "2.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/apollo-link-moleculer: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:61779:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:121917:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:122900:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:122820:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)

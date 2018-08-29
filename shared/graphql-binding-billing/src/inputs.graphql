@@ -1,0 +1,7 @@
+input InvoiceWhereInput {
+  clientId: Int
+}
+
+input InvoiceCreateInput {
+  name: String
+}

@@ -1,0 +1,23 @@
+{
+  "name": "moleculer-graphql-binding",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GraphQL API's type system",
+  "author": "Léo Le Bras <leolebras@acme.fr>",
+  "main": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "2.9.2"
+  },
+  "dependencies": {
+    "change-case": "^3.0.2",
+    "graphql": "^0.13.2",
+    "graphql-binding": "^2.2.3",
+    "iterall": "^1.2.2",
+    "moleculer": "^0.13.1"
+  }
+}

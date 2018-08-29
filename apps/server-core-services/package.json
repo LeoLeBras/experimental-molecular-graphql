@@ -1,0 +1,26 @@
+{
+  "name": "server-services",
+  "private": true,
+  "version": "1.0.0",
+  "description": "...",
+  "author": "Léo Le Bras <leolebras@acme.fr>",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@acme/graphql-binding-customer": "1.0.0",
+    "graphql-binding": "^2.2.3",
+    "graphql-import": "^0.6.0",
+    "graphql-tag": "^2.9.2",
+    "iterall": "^1.2.2",
+    "moleculer": "^0.13.1",
+    "moleculer-graphql-binding": "^1.0.0",
+    "nats": "^1.0.1",
+    "ts-node": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.8",
+    "typescript": "2.9.2"
+  }
+}
